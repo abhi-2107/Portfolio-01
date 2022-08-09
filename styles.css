@@ -1,10 +1,11 @@
 * {
   margin: 0;
-  background-color: bisque;
   padding: 0;
   font-family: system-ui, sans-serif;
 }
-
+body {
+  background-color: rgb(255, 255, 255);
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -35,4 +36,49 @@ h1 {
 .center {
   display: flex;
   justify-content: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  padding-bottom: 60px;
+}
+button {
+  background-color: rgb(243, 109, 131);
+  color: white;
+  cursor: pointer;
+  padding: 8px 15px;
+}
+.corner {
+  padding: 0px 127px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1em;
+  background-color: aliceblue;
+}
+.corner a {
+  text-decoration: none;
+  color: rgb(40, 40, 251);
+}
+.box1 {
+  display: flex;
+  background-color: aliceblue;
+  padding: 10px 120px;
+}
+.box {
+  z-index: 1;
+  width: 450px;
+  padding: 12px;
+  margin: 18px;
+  background-color: white;
+}
+.blog{
+  padding:30px 50px;
+  border-bottom: 1px solid rgb(161, 156, 156);
+  
+}
+footer{
+  text-align: center;
+  margin: 8px 0px 25px 0px;
 }
