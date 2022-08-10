@@ -82,3 +82,49 @@ footer{
   text-align: center;
   margin: 8px 0px 25px 0px;
 }
+.img{
+  border-radius: 100%;
+}
+
+.bottom{
+  padding: 20px 140px;
+}
+.newbox{
+  display: flex;
+margin: 25px 0px;
+border-bottom: 1px solid gray;
+padding-bottom: 20px;
+}
+.year{
+
+  border-radius: 15px;
+background-color: rgb(51, 52, 62);
+color: white;
+
+}
+.topic{
+  color: rgb(51, 52, 62);
+  
+  
+}
+.decor{
+  display: flex;
+  padding: 12px;
+  align-items: center;
+
+}
+.decor p{
+  padding: 3px 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.newbox_cont{
+  padding-left:20px ;
+}
+.works_link{
+  text-decoration: none;
+color: black;
+}
+.works_link:hover{
+  
+  color: rgb(51, 52, 62);
+}
