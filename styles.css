@@ -41,8 +41,7 @@ h1 {
 .profile {
   display: flex;
   justify-content: space-around;
-  padding: 40px;
-  padding-bottom: 60px;
+  padding: 5%;
 }
 button {
   background-color: rgb(243, 109, 131);
@@ -53,7 +52,7 @@ button {
   
 }
 .corner {
-  padding: 0px 127px;
+  padding: 1% 12%;
   display: flex;
   justify-content: space-between;
   font-size: 1.1em;
@@ -65,14 +64,15 @@ button {
 }
 .box1 {
   display: flex;
+  justify-content: space-around;
   background-color: aliceblue;
-  padding: 10px 120px;
+  padding: 0% 10%;
 }
 .box {
   z-index: 1;
   width: 450px;
   padding: 12px;
-  margin: 18px;
+  margin: 18px;  
   background-color: white;
 }
 .blog{
@@ -86,10 +86,13 @@ footer{
 }
 .img{
   border-radius: 100%;
+  padding-bottom: 3%;
 }
 
 .bottom{
-  padding: 20px 140px;
+  display: flex;
+  flex-direction: column;
+  padding: 2% 15%;
 }
 .newbox{
   display: flex;
@@ -129,4 +132,17 @@ color: black;
 .works_link:hover{
   
   color: rgb(51, 52, 62);
+}
+
+@media only screen and (max-width: 768px) {
+  .profile{
+    flex-direction: column-reverse;
+    padding: 5% 15%;
+  }
+.box1{
+  flex-direction: column;
+}
+.newbox{
+ flex-direction: column; 
+}
 }
